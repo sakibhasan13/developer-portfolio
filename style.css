@@ -1,0 +1,44 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.name-color {
+  color: orange;
+}
+
+section {
+  display: flex;
+}
+
+.name-text {
+  width: 50%;
+  padding-left: 8%;
+  margin-right: 10px;
+}
+
+.profile-image {
+  width: 50%;
+}
+
+.profile-image img {
+  width: 80%;
+}
+
+.hire-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.top-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
