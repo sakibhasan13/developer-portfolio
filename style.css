@@ -17,8 +17,8 @@ section {
 
 .name-text {
   width: 50%;
-  padding-left: 8%;
-  margin-right: 10px;
+  padding-left: 10%;
+  margin-right: 15px;
 }
 
 .profile-image {
@@ -41,4 +41,36 @@ section {
 .top-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+
+.dream-section {
+  margin-top: 10%;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.dream-image {
+  width: 50%;
+}
+
+.dream-image img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.dream-text {
+  width: 50%;
+  margin-right: 20px;
+  margin-left: 45px;
+}
+
+.download-button {
+  text-decoration: none;
+  background-image: linear-gradient(yellow, orange);
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: black;
+  font-weight: 700;
+  margin-top: 10px;
 }
